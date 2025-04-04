@@ -16,7 +16,7 @@ Create metrics and Grafana dashboards for monitoring infrastructure resource usa
 - **Kafka Health Metrics**
 - **Cluster Usage & Health**
 
-<img src="" alt="Resource Utilization Metrics & Dashboards"/>
+![Resource Utilization Metrics & Dashboards](https://raw.githubusercontent.com/rohitsunilsharma2000/InsightPulse/refs/heads/main/Screenshot-infra-and-job-monitoring.png)
 
 ---
 
@@ -31,7 +31,7 @@ Monitor and visualize metrics for batch or background jobs:
 **→ Alerts:**
 - Configure threshold-based alerts for throughput drops, failures, or SLA breaches.
 
-<img src="" alt="Job-Specific Metrics, Alerts & Dashboards"/>
+![Job-Specific Metrics, Alerts & Dashboards](https://github.com/rohitsunilsharma2000/InsightPulse/blob/main/Screenshot-infra-job-and-api-monitoring.png?raw=true)
 
 ---
 
@@ -44,7 +44,7 @@ Create real-time service observability dashboards:
 
 **→ Use distributed tracing or APM tools for granular latency tracking.**
 
-<img src="" alt="API / Service Metrics & Dashboards"/>
+![API / Service Metrics & Dashboards](https://github.com/rohitsunilsharma2000/InsightPulse/blob/main/Screenshot-job-metrics-dashboard.png?raw=true)
 
 ---
 
