@@ -1,0 +1,11 @@
+groups:
+  - name: job_alerts
+    rules:
+      - alert: JobDown
+        expr: inventory_sync_availability == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Inventory sync is down"
+          description: "Inventory sync job has been unavailable for 2 minutes."
