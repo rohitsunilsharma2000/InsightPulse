@@ -20,6 +20,7 @@ while true; do
   hey -n $REQUESTS -c $CONCURRENCY $BASE_URL/generate-report &
   hey -n $REQUESTS -c $CONCURRENCY $BASE_URL/process-payment &
   hey -n $REQUESTS -c $CONCURRENCY $BASE_URL/inventory-sync &
+  hey -n $REQUESTS -c $CONCURRENCY $BASE_URL/execute-dummy-job &
 
   wait
   echo "Round completed. Sleeping for $DELAY seconds..."

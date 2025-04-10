@@ -67,6 +67,7 @@ public class JobService {
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             logger.warn("Report generation was interrupted.");
+
         } finally {
             long end = System.nanoTime();
             reportGenerationTimer.record(end - start, TimeUnit.NANOSECONDS);
@@ -78,6 +79,7 @@ public class JobService {
      * Simulate a payment job that may fail and increment failures manually.
      */
     public void processPayment() {
+
         logger.info("Simulating payment processing job...");
         if (ThreadLocalRandom.current().nextDouble() < 0.3) {
             paymentFailures.increment();
